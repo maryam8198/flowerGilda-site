@@ -1,0 +1,94 @@
+@media (max-width: 1300px) {
+
+
+}
+
+@media (max-width: 1120px) {
+  .side-menu li{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
+  }
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+  .slider_section .carousel-indicators {
+    margin-top: 45px;
+  }
+
+  .side-menu li span{
+    display: none;
+  }
+  .side-menu{
+    align-items: center;
+  }
+  .side-menu li img{
+    width: 40px;
+    height:40px ;
+  }
+  .side-menu li:hover{
+    background: #81b214;
+    padding: 8px 38px;
+    border: 2px solid white;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+
+  .about_section .detail-box,
+  .contact_section .map_container {
+    margin-top: 45px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .brand-name h1{
+    font-size: 16px;
+  }
+  .container .content .cards{
+    justify-content: center;
+  }
+  .side-menu li img{
+    width: 30px;
+    height: 30px;
+  }
+  .container .content .content-2 .recent-payments table th:nth-child(2),
+  .container .content .content-2 .recent-payments table th:nth-child(2)
+  {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 420px) {}
+
+@media (max-width: 376px) {
+  .slider_section .detail-box h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+
+@media (min-width:576px) and (max-width:991px) {}

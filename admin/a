@@ -1,0 +1,27 @@
+<main>
+    <div class="About-users">
+            <div class="title">
+                <h2>مشخصات</h2>
+            </div>
+            <div class="account-content">
+                <div class="row">
+                    <label for="firstname">نام</label>
+                    <input type="text" class="firstname" name="firstname" placeholder="نام">
+                    <label for="lastname">نام خانوادگی</label>
+                    <input type="text" class="lastname" name="lastname" placeholder="نام خانوادگی">
+                </div>
+                <div class="row">
+                    <label for="showname">نام نمایشی </label>
+                    <input type="text" class="showname" name="text" placeholder="نام نمایشی ">
+                </div>
+                <div class="row">
+                    <label for="email">ایمیل</label>
+                    <input type="email" class="email" name="email" placeholder="ایمیل">
+                </div>
+                <div class="row">
+                    <label for="phonenumber">شماره همراه</label>
+                    <input type="text" class="phonenumber" name="phonenumber" placeholder="شماره همراه">
+                </div>
+            </div>       
+    </div>
+</main>

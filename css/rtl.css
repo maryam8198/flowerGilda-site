@@ -1,0 +1,123 @@
+.navbar{
+    width: 100%;
+    z-index:999;
+}
+.navbar .navbar-collapse{
+    max-width: 1000px;
+    position: relative;
+    display:inline-table;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo .navbar-brand{
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.navbar .navbar-collapse .navbar-nav{
+    direction: rtl;
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item{
+    list-style: none;
+    padding: 5px;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+.navbar .navbar-collapse .navbar-nav .submenu>.nav-link::after{
+    content:'▾';
+    position: absolute;
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 5px;    
+    width: 100%;
+    z-index: 1;
+}
+.navbar .navbar-collapse .navbar-nav .submenu:hover>.nav-link::after{
+    content:'▴';
+    position: absolute;
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 100%;
+    z-index: 1;
+}
+.navbar .navbar-collapse .megamenu{
+    position: fixed;
+    top:85px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+    text-align: right !important;
+    width: 100%;
+    z-index: 1;
+}
+.navbar .navbar-collapse .navbar-nav .submenu:hover .megamenu{
+    opacity: 1;
+    visibility:visible;
+}
+.navbar .navbar-collapse .megamenu .content{
+    direction: rtl;
+    background-color: #81b214;
+    padding: 25px 20px;
+    border-top: 4px solid #81b214;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    width: 100%;
+}
+.navbar .navbar-collapse .megamenu .content .row{
+    line-height: 45px;
+}
+.navbar .navbar-collapse .megamenu .content .row img{
+    width:20rem;
+    height:20rem;
+    object-fit: cover;
+}
+.navbar .navbar-collapse .megamenu .content .row .title{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 5px 5px;
+    margin: 0;
+}
+.navbar .navbar-collapse .megamenu .content .row .megamenu-links{
+    padding: 0;
+    margin: 0;
+}
+.navbar .navbar-collapse .megamenu .content .row .megamenu-links li{
+    list-style: none;
+    padding: 0 20px;
+}
+.navbar .navbar-collapse .megamenu .content .row .megamenu-links li a{
+    padding: 0 20px;
+    color: #ffffff;
+    display: block;
+}
+.navbar .navbar-collapse .megamenu .content .row .megamenu-links li a:hover{
+    text-decoration: none;
+    color: #206a5d;
+}
+.navbar .navbar-collapse .megamenu .content .row .megamenu-links li:nth-child(1){
+    margin-top: 20px;
+}
+
+.about_section .detail-box{
+    direction: rtl !important;
+    float: right !important;
+    text-align: right !important;
+}
+.consulting_section{
+    direction: rtl !important;
+}
+.consulting_section p{
+    padding: 10px 0 0 0;
+}
